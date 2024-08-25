@@ -1,8 +1,8 @@
-# Code for [Optimized design of a quantum modular adder over GF(2^n − 1)](https://www.computer.org/csdl/magazine/mi)
+# Code for [Optimized design of a quantum modular adder over GF(2<sup>n</sup> − 1)](https://www.computer.org/csdl/magazine/mi)
 
 **Francisco Orts, Elisabeth Ortega-Carrasco, and Ernestas Filatovas**
 
-This repository contains all the written code for the paper "Optimized design of a quantum modular adder over GF(2^n − 1)", written by Francisco Orts, Elisabeth Ortega-Carrasco, and Ernestas Filatovas. This code allows the construction of a quantum modular adder circuit for binary numbers of any size. You only have to specify the numbers to add ($a$ and $b$), and the modulus $2^n$ (you only need to specify $n$). The number of bits in $a$ and $b$ must be $n$, so fill in leading zeros if necessary.
+This repository contains all the written code for the paper "Optimized design of a quantum modular adder over GF(2<sup>n</sup> − 1)", written by Francisco Orts, Elisabeth Ortega-Carrasco, and Ernestas Filatovas. This code allows the construction of a quantum modular adder circuit for binary numbers of any size. You only have to specify the numbers to add ($a$ and $b$), and the modulus $2^n$ (you only need to specify $n$). The number of bits in $a$ and $b$ must be $n$, so fill in leading zeros if necessary.
 
 The code is written in Python. These libraries are necessary:
 * cirq
