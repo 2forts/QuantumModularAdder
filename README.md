@@ -10,14 +10,14 @@ The code is written in Python. These libraries are necessary:
 * latexmk (only for pdf writing functionality)
 
 **Files included:**
-* [toffoli.py](https://github.com/2forts/QuantumMeter/blob/main/OptimizeConcatenatedCNOT.py): Replaces, as specified in the paper, controlled operations that can be simplified.
-* [test_toffoli.py](https://github.com/2forts/QuantumMeter/blob/main/QuantumCostAnalyzer.py): Quantum circuit metric calculator.
-* [temporary.py](https://github.com/2forts/QuantumMeter/blob/main/RemoveCNOT.py): Replaces CNOT operations with unit operations.
-* [test_temporary.py](https://github.com/2forts/QuantumMeter/blob/main/RemoveUnusedQubits.py): Eliminates all unused qubits from a circuit, obtaining an equivalent and ordered one.
-* [undo_temporary.py](https://github.com/2forts/QuantumMeter/blob/main/Example.py): Example of how to use the framework operations.
-* [test_undotemporary.py](https://github.com/2forts/QuantumMeter/blob/main/comparator.qasm): Comparator obtained using the framework, as described in the paper.
-* [builder.py](https://github.com/2forts/QuantumMeter/blob/main/comparator.qasm): Comparator obtained using the framework, as described in the paper.
-* [how_to_use.py](https://github.com/2forts/QuantumMeter/blob/main/comparator.qasm): Comparator obtained using the framework, as described in the paper.
+* [toffoli.py](https://github.com/2forts/QuantumModularAdder/blob/main/toffoli.py): Implementation of the Toffoli gate used in the paper.
+* [test_toffoli.py](https://github.com/2forts/QuantumModularAdder/blob/main/test_toffoli.py): Toffoli gate test.
+* [temporary.py](https://github.com/2forts/QuantumModularAdder/blob/main/temporary.py): Implementation of the Temporary logical AND gate proposed by Gidney (see reference in paper).
+* [test_temporary.py](https://github.com/2forts/QuantumModularAdder/blob/main/test_temporary.py): Temporary logical AND gate test.
+* [undo_temporary.py](https://github.com/2forts/QuantumModularAdder/blob/main/undo_temporary.py): Uncomputation of the Temporary logical AND gate proposed by Jones (see reference in paper).
+* [test_undotemporary.py](https://github.com/2forts/QuantumModularAdder/blob/main/test_undotemporary.py): Test of the uncomputation gate.
+* [builder.py](https://github.com/2forts/QuantumModularAdder/blob/main/builder.py): Main code. Includes the method necessary to build the circuit for any specified size.
+* [how_to_use.py](https://github.com/2forts/QuantumModularAdder/blob/main/how_to_use.py): Simple example of how to use the proposed code.
 * [LiCENSE](https://github.com/2forts/QuantumMeter/blob/main/LICENSE): Apache License 2.0.
 
 **How to cite:**
