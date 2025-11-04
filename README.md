@@ -19,7 +19,3 @@ The code is written in Python. These libraries are necessary:
 * [builder.py](https://github.com/2forts/QuantumModularAdder/blob/main/builder.py): Main code. Includes the method necessary to build the circuit for any specified size.
 * [how_to_use.py](https://github.com/2forts/QuantumModularAdder/blob/main/how_to_use.py): Simple example of how to use the proposed code.
 * [LiCENSE](https://github.com/2forts/QuantumMeter/blob/main/LICENSE): Apache License 2.0.
-
-**How to cite:**
-
-IMPORTANT: This work is currently under review.
