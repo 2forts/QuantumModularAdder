@@ -1,6 +1,6 @@
 # Code for [Optimized design of a quantum modular adder over GF(2<sup>n</sup> − 1)](https://www.hpca.ual.es/~forts/)
 
-**Francisco Orts, Elisabeth Ortega-Carrasco, and Ernestas Filatovas**
+**Elisabeth Ortega-Carrasco, Ernestas Filatovas and Francisco Orts**
 
 This repository contains all the written code for the paper "Optimized design of a quantum modular adder over GF(2<sup>n</sup> − 1)", written by Francisco Orts, Elisabeth Ortega-Carrasco, and Ernestas Filatovas. This code allows the construction of a quantum modular adder circuit for binary numbers of any size. You only have to specify the numbers to add ($a$ and $b$), and the modulus $2^n$ (you only need to specify $n$). The number of bits in $a$ and $b$ must be $n$, so fill in leading zeros if necessary.
 
